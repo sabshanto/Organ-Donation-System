@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Donor Link</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.20/dist/full.min.css" rel="stylesheet" />
+</head>
+<body class="bg-base-100 font-sans">
+
+  <!-- Navbar -->
+  <header class="w-full bg-orange-300 shadow-md py-3 px-5 md:px-10 rounded-b-xl">
+    <div class="flex flex-col md:flex-row justify-between items-center">
+      <div class="flex items-center gap-2 mb-2 md:mb-0">
+        <img src="https://img.icons8.com/color/48/heart-with-pulse.png" alt="logo" class="w-8 h-8" />
+        <div>
+          <h1 class="text-xl font-bold text-black">Donor <span class="font-light">Link</span></h1>
+          <p class="text-xs text-pink-700 uppercase tracking-wide">Donate organ, save life</p>
+        </div>
+      </div>
+      <nav class="flex flex-wrap justify-center gap-4 text-sm font-medium">
+        <a class="hover:underline cursor-pointer">Home</a>
+        <a class="hover:underline cursor-pointer">Register to be a donor</a>
+        <a class="hover:underline cursor-pointer">Register For Organ</a>
+        <a class="font-bold underline cursor-pointer">Explore</a>
+        <a class="hover:underline cursor-pointer">Research</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Card Section -->
+  <section class="py-10 px-5 md:px-10 flex flex-col items-center">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-screen-lg">
+      
+      <!-- Kidney Card -->
+      <div class="rounded-xl border shadow-md bg-white w-72 mx-auto">
+        <div class="p-5 text-center">
+          <h2 class="text-2xl font-bold tracking-wide mb-2">KIDNEY</h2>
+          <p class="text-sm font-medium text-gray-800 mb-4">Looking for a donor</p>
+          <div class="flex justify-center items-center gap-2 mb-3">
+            <svg class="w-4 h-4 text-pink-600" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5 14.5 7.62 14.5 9 13.38 11.5 12 11.5z"/></svg>
+            <span class="badge badge-outline px-3">Gazipur</span>
+          </div>
+          <button class="btn btn-error btn-sm w-full" data-type="call">📞 CALL US</button>
+        </div>
+      </div>
+
+      <!-- Blood Card -->
+      <div class="rounded-xl border shadow-md bg-white w-72 mx-auto">
+        <div class="p-5 text-center">
+          <h2 class="text-2xl font-bold tracking-wide mb-2">BLOOD</h2>
+          <p class="text-sm font-medium text-gray-800 mb-4">Looking for a recipient</p>
+          <div class="flex justify-center items-center gap-2 mb-3">
+            <svg class="w-4 h-4 text-pink-600" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5 14.5 7.62 14.5 9 13.38 11.5 12 11.5z"/></svg>
+            <span class="badge badge-outline px-3">Tongi</span>
+          </div>
+          <button class="btn btn-error btn-sm w-full" data-type="call">📞 CALL US</button>
+        </div>
+      </div>
+
+      <!-- Eye Card -->
+      <div class="rounded-xl border shadow-md bg-white w-72 mx-auto">
+        <div class="p-5 text-center">
+          <h2 class="text-2xl font-bold tracking-wide mb-2">EYE</h2>
+          <p class="text-sm font-medium text-gray-800 mb-4">Looking for a donor</p>
+          <div class="flex justify-center items-center gap-2 mb-3">
+            <svg class="w-4 h-4 text-pink-600" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5 14.5 7.62 14.5 9 13.38 11.5 12 11.5z"/></svg>
+            <span class="badge badge-outline px-3">Mirpur</span>
+          </div>
+          <button class="btn btn-error btn-sm w-full" data-type="call">📞 CALL US</button>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Explore More Button -->
+    <div class="mt-8">
+      <button class="btn btn-primary rounded-full px-8 text-white text-md font-semibold" data-type="explore">EXPLORE MORE</button>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
