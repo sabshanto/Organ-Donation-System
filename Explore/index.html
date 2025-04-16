@@ -9,25 +9,30 @@
 </head>
 <body class="bg-base-100 font-sans">
 
-  <!-- Navbar -->
-  <header class="w-full bg-orange-300 shadow-md py-3 px-5 md:px-10 rounded-b-xl">
-    <div class="flex flex-col md:flex-row justify-between items-center">
-      <div class="flex items-center gap-2 mb-2 md:mb-0">
-        <img src="https://img.icons8.com/color/48/heart-with-pulse.png" alt="logo" class="w-8 h-8" />
-        <div>
-          <h1 class="text-xl font-bold text-black">Donor <span class="font-light">Link</span></h1>
-          <p class="text-xs text-pink-700 uppercase tracking-wide">Donate organ, save life</p>
-        </div>
-      </div>
-      <nav class="flex flex-wrap justify-center gap-4 text-sm font-medium">
-        <a class="hover:underline cursor-pointer">Home</a>
-        <a class="hover:underline cursor-pointer">Register to be a donor</a>
-        <a class="hover:underline cursor-pointer">Register For Organ</a>
-        <a class="font-bold underline cursor-pointer">Explore</a>
-        <a class="hover:underline cursor-pointer">Research</a>
-      </nav>
+  <!-- Header Section -->
+  <header class="p-5 bg-white shadow-md flex justify-between items-center">
+    <a href="/index.html">
+        <img class="w-32" src="/Assets/DonorLink Logo.png" alt="Logo">
+    </a>
+    <nav>
+        <ul class="flex space-x-4">
+            <li><a href="/index.html" class="btn btn-outline">Home</a></li>
+            <li><a href="/donorReg/donorReg.html" class="btn btn-outline">Donor Registration</a></li>
+            <li><a href="/OrganReg/organRegistration.html" class="btn btn-outline">Organ Registration</a></li>
+            <li><a href="/Explore/index.html" class="btn btn-primary">Explore</a></li>
+            <li><a href="/Research/research.html" class="btn btn-outline">Research</a></li>
+        </ul>
+    </nav>
+    <div>
+        <a href="/login/login.html"><button class="btn btn-secondary">Login</button></a>
+        <a href="/signup/signup.html"><button class="btn btn-accent">Sign Up</button></a>
     </div>
-  </header>
+</header>
+  <!-- Login & Signup Buttons -->
+  <div class="hidden md:flex space-x-2">
+    <!-- <a href="/login/login.html"><button class="btn btn-secondary">Login</button></a>
+        <a href="/signup/signup.html"><button class="btn btn-accent">Sign Up</button></a> -->
+  </div>
 
   <!-- Card Section -->
   <section class="py-10 px-5 md:px-10 flex flex-col items-center">

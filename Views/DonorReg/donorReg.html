@@ -10,6 +10,26 @@
       href="https://cdn.jsdelivr.net/npm/daisyui@latest/dist/full.css"
     />
     <link rel="icon" type="image/x-icon" href="../../Assets/heartlogo.png" />
+
+    <style>
+      /* Customizing the text area appearance */
+      textarea {
+        background-color: #f3eeee; /* Light pastel blue */
+        border: 2px solid #c3c8cf; /* Light gray border */
+        color: #e4e0e0; /* Dark text for readability */
+        padding: 10px;
+        border-radius: 8px;
+        font-size: 16px;
+        transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+      }
+    
+      /* On focus, change the border and background color for better interactivity */
+      textarea:focus {
+        background-color: #4b5674; /* Slightly darker blue on focus */
+        border-color: #4c88e6; /* Blue border on focus */
+        outline: none;
+      }
+    </style>
   </head>
   <body
     class="bg-hero-pattern bg-cover bg-center bg-no-repeat h-screen flex flex-col min-h-screen"
@@ -25,7 +45,7 @@
       <!-- Mobile Menu Button -->
       <button
         id="menu-btn"
-        class="block md:hidden text-gray-700 focus:outline-none"
+        class="block md:hidden text-black focus:outline-none"
       >
         <svg
           class="w-8 h-8"
